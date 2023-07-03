@@ -63,16 +63,16 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #d90429;
+  background: #ff2f52;
   color: #fff;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   border-radius: 5px;
-  margin-bottom: 0.7rem;
+  /* margin-bottom: 0.7rem; */
   cursor: pointer;
   font-size: 1.5rem;
 }
 
-.fa-trash {
+.trash {
   margin-left: 0.75rem;
 }
 

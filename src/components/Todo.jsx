@@ -4,7 +4,7 @@ import { MdRestoreFromTrash } from "react-icons/md";
 
 const Todo = ({ task, toggleComplete, deleteList, editList }) => {
   // console.log(task);
-  return (
+  return (  
     <div className="Todo">
       <h1
         className={`${task.completed ? "completed" : ""}`}
@@ -17,7 +17,7 @@ const Todo = ({ task, toggleComplete, deleteList, editList }) => {
           className=""
           onClick={() => editList(task.id)}
         />
-        <MdRestoreFromTrash className="" onClick={() => deleteList(task.id)} />
+        <MdRestoreFromTrash className="trash" onClick={() => deleteList(task.id)} />
       </div>
     </div>
   );

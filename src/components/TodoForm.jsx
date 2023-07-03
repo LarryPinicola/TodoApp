@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const TodoForm = ({ addList }) => {
   const [value, setValue] = useState("");
-
   const submitHandler = (e) => {
     e.preventDefault();
     // console.log(value);
@@ -11,7 +10,6 @@ const TodoForm = ({ addList }) => {
     }
     setValue("");
   };
-
   return (
     <form action="" onSubmit={submitHandler}>
       <input
